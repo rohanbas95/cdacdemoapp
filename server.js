@@ -5,7 +5,7 @@ const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
 const app = express()
 
-mongoose.connect('mongodb://localhost:27017/blog', {
+mongoose.connect('mongodb://cdac:z3V3i6aBNvIf95sE5dIP3ninmz6N1VjeiSg83lrN2hrf4un2MyMk1P0vNiqT9A5q3eZUWmVYCPMxXRI2w8IbKA==@cdac.documents.azure.com:10255/mean-dev?ssl=true&sslverifycertificate=false', {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
 })
 
